@@ -35,3 +35,8 @@
 * **해결:** `fc_layer.v`에서 입력 데이터를 4개의 병렬 채널로 나누고 가중치 배열을 분할하는 **4-Channel 병렬 MAC 아키텍처**로 전면 재설계하여 연산 소요 클럭을 1/4로 획기적으로 단축.
 
 ---
+
+## 💻 Environment
+* Hardware: Digilent Zybo Z7-20 (Zynq-7000 SoC), OV7670, NEMA17 Stepper, L298N
+* Language: Verilog HDL, VHDL, C (Vitis)
+* Toolchain: Xilinx Vivado, Vitis IDE
